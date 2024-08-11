@@ -49,19 +49,6 @@ To achieve real-time detection, we implemented a multi-threaded solution that pr
 
 The CNN model demonstrated strong performance in classifying fire, smoke, and non-fire images. With an accuracy of **89.9%** on the validation set and **92.4%** on actual data, the model has proven effective in real-world scenarios. The multi-threaded real-time implementation effectively detected fire and smoke across multiple video streams, providing timely alerts.
 
-## Deployment
-
-To deploy the model:
-1. Install the required dependencies listed in `requirements.txt`.
-2. Load the pre-trained model and configure your RTSP streams.
-3. Run the `main.py` script to start real-time fire and smoke detection.
-
-## Future Work
-
-- **Model Optimization:** Further tuning and optimization of the model architecture to improve detection speed and accuracy.
-- **Edge Deployment:** Deployment on edge devices for more efficient, localized detection.
-- **Integration with Alarm Systems:** Automate alerts and notifications for detected fire or smoke.
-
 ## Conclusion
 
 This project successfully demonstrates the capability of deep learning in enhancing safety measures through real-time fire and smoke detection. With its high accuracy and real-time processing capabilities, the system is a valuable tool for monitoring large areas, potentially preventing disasters by providing early warnings.
